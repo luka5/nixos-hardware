@@ -33,14 +33,6 @@
       };
     }
     {
-      name = "try-to-allocate-big-block-of-dma-memory-firstly";
-      patch = pkgs.fetchpatch {
-        url =
-          "https://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git/patch/?id=0d8b0aff6b77ea5a8d715ba5d0089f9dffbabf21";
-        sha256 = "120zqivqhs5080b64h62x69svi6bq02scgnkswa0hbvdncsy63y8";
-      };
-    }
-    {
       name = "fix-monitor-status-dma-unmap-direction";
       patch = pkgs.fetchpatch {
         url =
@@ -182,14 +174,6 @@
         url =
           "https://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git/patch/?id=d448ef6decab05c499ffc005c56307a6fc1f1abe";
         sha256 = "17pgbmsryg96626xpbkzd0c27z71lsy7ygli4c6d4dzk5b9594zn";
-      };
-    }
-    {
-      name = "fix-incorrect-tlvs-in-scan-start-command";
-      patch = pkgs.fetchpatch {
-        url =
-          "https://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git/patch/?id=bfa226b7e2e988609631e7f6cd0d4e9ede423f6b";
-        sha256 = "03qb5d0dm77l2ifmcy87p064qd55bg9kqx9nmxy6lrvz83crizpb";
       };
     }
     {
